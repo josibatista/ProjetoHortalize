@@ -4,9 +4,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cadastro Hortalize</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <form action="">
+
+    <header>
+        <figure>
+            <img src="figs/programa_hortalize.png"
+                alt="logotipo" height="120">
+        </figure>
+
+        <h1>Hortalize</h1>
+
+        <nav>
+            <a href="inicial.html"> <!--linkar pagina inicial-->
+                <h1>Página Principal</h1>
+            </a> 
+        </nav>
+        
+    </header>
+
+    <form class="forms" action="">
+
+        <h2>Criação de Conta</h2>
+
         <label for="username">Nome Completo:</label><br>
         <input type="text" id="username" name="username" placeholder="Informe seu nome completo" required><br>
 
@@ -29,7 +50,7 @@
         <label for="senha">Senha:</label><br>
         <input type="password" id="senha" name="senha" placeholder="Insira uma senha válida" required>
 
-        <section>
+        <section id="sobresenha">
             <ul>
                 <li>No mínimo, 8 caracteres</li>
                 <li>No máximo, 16 caracteres</li>
@@ -38,10 +59,16 @@
             </ul>
         </section>
 
-        <!-- <button type="button" onclick="login">Já tenho conta</button> -->
+        <!-- <button type="button" onclick="login.html">Já tenho conta</button> -->
         <input type="submit" value="Cadastrar">
 
     </form>
+
+    <footer>
+        <p id="autores">Josiane Batista | Maria Clara Nascimento</p>
+        <p id="autoria">&copy; 2025 Programa Hortalize | Cornélio Procópio - PR</p>
+    </footer>
+      
 
 </body>
 </html>
