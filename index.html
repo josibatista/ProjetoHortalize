@@ -9,12 +9,13 @@
 <body>
 
     <header>
-        <figure>
-            <img src="figs/programa_hortalize.png"
-                alt="logotipo" height="120">
-        </figure>
-
-        <h1>Hortalize</h1>
+        <div class="programa">
+            <figure>
+                <img src="figs/programa_hortalize.png"
+                    alt="logotipo" height="75">
+            </figure>
+            <h1>Hortalize</h1>
+        </div>
 
         <nav>
             <a href="inicial.html"> <!--linkar pagina inicial-->
@@ -28,27 +29,27 @@
 
         <h2>Criação de Conta</h2>
 
-        <label for="username">Nome Completo:</label><br>
-        <input type="text" id="username" name="username" placeholder="Informe seu nome completo" required><br>
+        <label for="username">Nome Completo:</label>
+        <input type="text" class="campo" name="username" placeholder="Informe seu nome completo" required>
 
-        <label for="data">Data de Nascimento:</label><br>
-        <input type="date" id="data" name="data" min="1900-01-01" max="2010-12-31" required><br>
+        <label for="data">Data de Nascimento:</label>
+        <input type="date" class="campo" name="data" min="1900-01-01" max="2010-12-31" required>
 
-        <label for="telefone">Telefone para Contato:</label><br>
-        <input type="tel" id="telefone" name="telefone" placeholder="Informe seu telefone" required><br>
+        <label for="telefone">Telefone para Contato:</label>
+        <input type="tel" class="campo" name="telefone" placeholder="Informe seu telefone" required>
         
-        <label for="contribuidor">Tipo de Contribuidor:</label><br>
-        <select name="contribuidor" id="contribuidor" required>
+        <label for="contribuidor">Tipo de Contribuidor:</label>
+        <select class="campo" name="contribuidor" required>
             <option value="op1">Usuário Comum</option>
             <option value="op3">Agricultor Comunitário</option>
             <option value="op2">Empresa Parceira</option>
         </select><br>
         
-        <label for="email">E-mail:</label><br>
-        <input type="email" id="email" name="email" placeholder="Informe seu e-mail" required><br>
+        <label for="email">E-mail:</label>
+        <input type="email" class="campo" name="email" placeholder="Informe seu e-mail" required><br>
         
-        <label for="senha">Senha:</label><br>
-        <input type="password" id="senha" name="senha" placeholder="Insira uma senha válida" required>
+        <label for="senha">Senha:</label>
+        <input type="password" class="campo" name="senha" placeholder="Insira uma senha válida" required>
 
         <section id="sobresenha">
             <ul>
