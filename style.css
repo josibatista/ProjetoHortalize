@@ -15,14 +15,14 @@ header{
     height: 70px;
 }
 
-nav a {
+.menu {
     color: white;
     text-decoration: none;
     margin-left: 20px;
     font-weight: bold;
 }
 
-nav a:hover {
+.menu:hover {
     text-decoration: underline;
 }
 
@@ -43,7 +43,7 @@ nav a:hover {
 }
 
 /*corpo título*/
-.titulo {
+.titulo-principal {
     text-align: center;
     padding: 60px 20px;
     background-color: #abec8b;
@@ -162,37 +162,42 @@ footer {
     background-color: #00AD0D;
     color: white;
     text-align: center;
-    padding: 10px;
+    padding: 5px;
+    margin: 0;
     font-size: 80%;
 }
 
-.nomes-grid, .autoria-grid {
-    display: flex;
+footer > p {
+    margin: 5px;
+}
+
+.nomes-grid, .autoria-grid{
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
     justify-content: center;
     align-items: center;
     gap: 10px;
-    flex-wrap: wrap;
-    margin: 5px 0;
+    margin: 5px;
 }
 
-.esquerda, .copy{
+.nome-esquerda, .titulo{
     text-align: right;
 }
 
 .divisor {
-    align-items: center;
+    text-align: center;
     min-width: 10px;
 }
 
-.direita, .cidade{
+.nome-direita, .cidade{
     text-align: left;
 }
 
-footer a {
-    color: white;
-    text-decoration: none;
+a{
+    color: white; 
+    text-decoration: none;   
 }
 
-footer a:hover {
-    color: #5f0108;
+a:hover{
+    color:  #5f0108;
 }
