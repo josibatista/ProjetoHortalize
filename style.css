@@ -1,7 +1,7 @@
 body {
     margin: 0;
     font-family: 'Poppins', Arial, sans-serif;
-    background-color: #FFFFFF;
+    background-color: rgb(247, 247, 247);
     color: #2d2d2d;
 }
 
@@ -32,8 +32,8 @@ nav a:hover {
 .titulo {
     text-align: center;
     padding: 60px 20px;
-    background-color: #d2f1c3;
-    color: #1c4c25;
+    background-color: #abec8b;
+    color: #1f5228;
 }
 
 .section {
@@ -120,10 +120,36 @@ nav a:hover {
     margin-left: 0;
 }
 
-footer {
-    background-color: #00AD0D;
-    color: white;
+.img-ods {
     text-align: center;
-    padding: 20px;
-    margin-top: 40px;
+}
+
+footer {
+  background-color: #00AD0D;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  font-size: 80%;
+}
+
+.linha {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin: 5px 0;
+}
+
+.divisor {
+  min-width: 10px;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: #5f0108;
 }
