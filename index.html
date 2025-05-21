@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Usuário</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Symbols+Outlined">
+</head>
+<body>
+
+    <header>
+        <div class="programa">
+            <figure>
+                <img src="figs/programa_hortalize.png"
+                    alt="logotipo" height="60">
+            </figure>
+        </div>
+        <nav>
+            <a href="inicial.html"> <!--linkar pagina inicial-->
+                <i class="material-icons-outlined">home</i>
+                <h1>Página Principal</h1>
+            </a> 
+        </nav>
+        
+    </header>
+
+
+    <form class="forms" action="">
+
+        <h2>Criação de Conta</h2>
+
+        <label for="username">Nome Completo:</label>
+        <input type="text" class="campo" name="username" placeholder="Informe seu nome completo" required>
+
+        <label for="data">Data de Nascimento:</label>
+        <input type="date" class="campo" name="data" min="1900-01-01" max="2010-12-31" required>
+
+        <label for="telefone">Telefone para Contato:</label>
+        <input type="tel" class="campo" name="telefone" placeholder="Informe seu telefone" required>
+        
+        <label for="contribuidor">Tipo de Contribuidor:</label>
+        <select class="campo" name="contribuidor" required>
+            <option value="op1">Usuário Comum</option>
+            <option value="op3">Agricultor Comunitário</option>
+            <option value="op2">Empresa Parceira</option>
+        </select><br>
+        
+        <label for="email">E-mail:</label>
+        <input type="email" class="campo" name="email" placeholder="Informe seu e-mail" required><br>
+        
+        <label for="senha">Senha:</label>
+        <input type="password" class="campo" name="senha" placeholder="Insira uma senha válida" required>
+
+        <section id="sobresenha">
+            <ul>
+                <li>No mínimo, 8 caracteres</li>
+                <li>No máximo, 16 caracteres</li>
+                <li>Inclua, ao menos, 1 letra</li>
+                <li>Inclua, ao menos, 1 caracter especial</li>
+            </ul>
+        </section>
+
+        <!-- <button type="button" onclick="login.html">Já tenho conta</button> -->
+        <input type="submit" value="Cadastrar">
+
+    </form>
+
+<footer>
+    <div class="nomes-grid">
+        <span class="nome-esquerda">
+            <a href="https://josibatista.github.io/web-front-end/" target="_blank">
+                Josiane Mariane Batista
+            </a>
+        </span>
+        <span class="divisor">|</span>
+        <span class="nome-direita">
+            <a href="https://mariandj.github.io/Programa-o-Web-Front-End/" target="_blank">
+                Maria Clara Nascimento
+            </a>
+        </span>
+    </div>
+
+    <div>
+        <div class="autoria-grid">
+        <span class="titulo"> 2025 &copy; Programa Hortalize</span>
+        <span class="divisor">|</span>
+        <span class="cidade">Cornélio Procópio - PR</span>
+    </div>
+</footer>
+
+
+      
+
+</body>
+</html>

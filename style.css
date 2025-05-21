@@ -1,0 +1,159 @@
+/*cabeçalho*/
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #00AD0D; 
+    color: white;             
+    margin: 0px;
+    padding: 0 20px;
+    font-family: Arial, sans-serif;
+}
+
+header figure {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+
+header h1 {
+    font-size: 130%;
+    font-weight: bold;
+    margin: 0;
+}
+
+.programa{
+    display: flex;
+    align-items: center;
+}
+
+nav a{
+    display: flex;
+    color: white;
+    align-items: center;
+    text-decoration: none;
+    gap: 8px;
+}
+
+
+/*corpo*/
+
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: rgb(247, 247, 247);
+    margin: 0;
+}
+
+h2{
+    color:#00AD0D; 
+    text-align: center;
+    background-color: #FFFFFF;
+    margin-top: 0px;
+}
+
+.forms{
+    background-color: #FFFFFF;
+    margin: 50px auto;
+    padding: 20px;
+    max-width: 500px;  
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.forms label {
+    display: block;
+    margin-top: 20px;
+    font-weight: bold;
+    color: #950009;
+}
+
+.campo{
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+#sobresenha ul {
+    margin-top: 10px;
+    padding-left: 20px;
+    font-size: 75%;
+    color: #555;
+}
+
+/* Botão de envio */
+.forms input[type="submit"] {
+    width: 100%;
+    padding: 12px;
+    margin-top: 30px;
+    background-color: #00AD0D;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.forms input[type="submit"]:hover {
+    background-color: #1c4c25;
+}
+
+/*rodapé*/
+
+footer {
+    background-color: #00AD0D;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    margin: 0;
+    font-size: 80%;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer > p {
+    margin: 5px;
+}
+
+.nomes-grid, .autoria-grid{
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin: 5px;
+}
+
+.nome-esquerda, .titulo{
+    text-align: right;
+}
+
+.divisor {
+    text-align: center;
+    min-width: 10px;
+}
+
+.nome-direita, .cidade{
+    text-align: left;
+}
+
+a{
+    color: white; 
+    text-decoration: none;   
+}
+
+a:hover{
+    color:  #5f0108;
+}
+
+
+/*950009
+F80038
+FF309E*/
