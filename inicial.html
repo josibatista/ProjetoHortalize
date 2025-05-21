@@ -4,8 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Programa Hortalize</title>
-    <link rel="stylesheet" href="style.css">
+    <link href="style.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
 </head>
 <body>
 
@@ -13,16 +14,29 @@
         <div class="logo">
             <img src="./figs/programa_hortalize.png" alt="Logo Programa Hortalize">
         </div>
-        <nav>
-            <a href="#">Início</a>
-            <a href="#sobre">Sobre</a>
-            <a href="#implementação">Funcionamento</a>
-            <a href="#divisao">Divisão</a>
-            <a href="#melhoria">Melhoria</a>
-            <a href="#impacto">Impacto</a>
-            <a href="#ods">ODS</a>
-            <a href="cadastro.html">Sair</a>
-        </nav>
+        <div class="grid-menu">
+            <div class="texto-menu">
+                <nav>
+                    <a href="#">Início</a>
+                    <a href="#sobre">Sobre</a>
+                    <a href="#implementação">Funcionamento</a>
+                    <a href="#divisao">Divisão</a>
+                    <a href="#melhoria">Melhoria</a>
+                    <a href="#impacto">Impacto</a>
+                    <a href="#ods">ODS</a>
+                </nav>
+            </div>
+            <div class="icons-menu">
+                <nav>
+                    <a href="cadastro.html">
+                        <span class="material-symbols-outlined">account_circle</span>
+                    </a>
+                    <a href="login.html">
+                        <span class="material-symbols-outlined">logout</span>
+                    </a>
+                </nav>
+            </div>
+        </div>
     </header>
 
     <section class="titulo">
@@ -109,7 +123,7 @@
             <div class="texto-impacto">
                 <p>
                     O Programa Hortalize gera impacto direto na sociedade ao transformar terrenos ociosos em espaços produtivos que promovem segurança alimentar, geração de renda e inclusão social. Ao envolver comunidades vulneráveis na produção de alimentos saudáveis, o projeto fortalece os laços comunitários, estimula a autonomia dos participantes e amplia oportunidades de trabalho e aprendizado.
-                    Além disso, contribui para o cumprimento de diversos Objetivos de Desenvolvimento Sustentável (ODS), com destaque para o ODS 2 – Fome Zero e Agricultura Sustentável.
+                    Além disso, contribui para o cumprimento de diversos Objetivos de Desenvolvimento Sustentável (ODS), com destaque para o <spam class="ods"><a href="https://brasil.un.org/pt-br/sdgs/2" target="_blank">ODS 2 -</a></spam> Fome Zero e Agricultura Sustentável.
                 </p>
             </div>
             <div class="img-impacto">
@@ -126,13 +140,21 @@
             econômicas e ambientais em comunidades vulneráveis:</p>
 
         <ul>
-            <li>ODS 1 - Erradicação da pobreza: Gera oportunidade de renda para os participantes através da venda das hortaliças produzidas.</li>
-            <li>ODS 3 - Saúde e bem-estar: Oferece acesso a alimentos livres de agrotóxicos e melhora a nutrição das famílias.</li>
-            <li>ODS 8 - Trabalho decente e crescimento econômico: Valoriza o trabalho coletivo e gera renda local de forma sustentável.</li>
-            <li>ODS 10 - Redução das desigualdades: Garante oportunidades para pessoas em situação de vulnerabilidade social, promovendo inclusão produtiva, autonomia financeira e igualdade de acesso à alimentação saudável.</li>
-            <li>ODS 11 - Cidades e comunidades sustentáveis: Reaproveita terrenos baldios, revitalizando espaços urbanos com impacto social positivo.</li>
-            <li>ODS 12 - Consumo e produção responsáveis: Incentiva práticas agrícolas conscientes, com respeito ao meio ambiente e redução de desperdícios.</li>
-            <li>ODS 17 - Parcerias e meios de implementação: Integra esforços de governo, empresas, cooperativas e comunidade para garantir o sucesso do programa.</li>
+            <li>
+                <spam class="ods"><a href="https://brasil.un.org/pt-br/sdgs/1" target="_blank">ODS 1 -</a></spam>
+                Erradicação da pobreza: Gera oportunidade de renda para os participantes através da venda das hortaliças produzidas.</li>
+            <li><span class="ods"><a href="https://brasil.un.org/pt-br/sdgs/3" target="_blank">ODS 3 -</a></span>
+                Saúde e bem-estar: Oferece acesso a alimentos livres de agrotóxicos e melhora a nutrição das famílias.</li>
+            <li><span class="ods"><a href="https://brasil.un.org/pt-br/sdgs/8" target="_blank">ODS 8 -</a></span>
+                Trabalho decente e crescimento econômico: Valoriza o trabalho coletivo e gera renda local de forma sustentável.</li>
+            <li><span class="ods"><a href="https://brasil.un.org/pt-br/sdgs/10" target="_blank">ODS 10 -</a></span>
+                Redução das desigualdades: Garante oportunidades para pessoas em situação de vulnerabilidade social, promovendo inclusão produtiva, autonomia financeira e igualdade de acesso à alimentação saudável.</li>
+            <li><span class="ods"><a href="https://brasil.un.org/pt-br/sdgs/11" target="_blank">ODS 11 -</a></span>
+                Cidades e comunidades sustentáveis: Reaproveita terrenos baldios, revitalizando espaços urbanos com impacto social positivo.</li>
+            <li><span class="ods"><a href="https://brasil.un.org/pt-br/sdgs/12" target="_blank">ODS 12 -</a></span>
+                Consumo e produção responsáveis: Incentiva práticas agrícolas conscientes, com respeito ao meio ambiente e redução de desperdícios.</li>
+            <li><span class="ods"><a href="https://brasil.un.org/pt-br/sdgs/17" target="_blank">ODS 17 -</a></span>
+                Parcerias e meios de implementação: Integra esforços de governo, empresas, cooperativas e comunidade para garantir o sucesso do programa.</li>
         </ul>
         <div class="img-ods">
             <p>
@@ -150,24 +172,20 @@
 
 
     <footer>
-        <div class="linha">
-            <span>
-            <a href="https://josibatista.github.io/web-front-end/" target="_blank">
-                Josiane Mariane Batista
-            </a>
+        <div class="nomes-grid">
+            <span class="direita">
+                <a href="https://josibatista.github.io/web-front-end/" target="_blank">Josiane Mariane Batista</a>
             </span>
             <span class="divisor">|</span>
-            <span>
-            <a href="https://mariandj.github.io/Programa-o-Web-Front-End/" target="_blank">
-                Maria Clara Nascimento
-            </a>
+            <span class="esquerda">
+                <a href="https://mariandj.github.io/Programa-o-Web-Front-End/" target="_blank">Maria Clara Nascimento</a>
             </span>
         </div>
 
-        <div class="linha">
-            <span>2025 &copy; Programa Hortalize</span>
+        <div class="autoria-grid">
+            <span class="copy">2025 &copy; Programa Hortalize</span>
             <span class="divisor">|</span>
-            <span>Cornélio Procópio - PR</span>
+            <span class="cidade">Cornélio Procópio - PR</span>
         </div>
     </footer>
 
