@@ -46,7 +46,7 @@ body{
 }
 
 .titulo-forms{
-    color:#00AD0D; 
+    color:#950009; 
     text-align: center;
     background-color: #FFFFFF;
     margin-top: 0px;
@@ -112,6 +112,7 @@ footer {
     padding: 5px;
     margin: 0;
     font-size: 80%;
+    position: fixed;
     bottom: 0;
     width: 100%;
 }
@@ -150,7 +151,6 @@ a{
 a:hover{
     color:  #5f0108;
 }
-
 
 
 /*página principal*/
