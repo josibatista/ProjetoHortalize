@@ -86,7 +86,7 @@ h2{
 }
 
 /* Botão de envio */
-.forms input[type="submit"] {
+.forms button {
     width: 100%;
     padding: 12px;
     margin-top: 30px;
@@ -100,7 +100,7 @@ h2{
     transition: background-color 0.3s;
 }
 
-.forms input[type="submit"]:hover {
+.forms button:hover {
     background-color: #1c4c25;
 }
 
