@@ -23,8 +23,8 @@
 
 ## 📖 Descrição do Projeto
 
-A ideia do projeto **Hortalize** é promover segurança alimentar, inclusão social e capacitação, com base na agricultura urbana sustentável.  
-A proposta é revitalizar terrenos baldios para cultivo coletivo, integrando a comunidade no combate à fome e geração de renda.
+A ideia do Programa Hortalize é transformar terrenos baldios em hortas comunitárias, promovendo segurança alimentar, inclusão social e geração de renda. A iniciativa permite que os alimentos cultivados sejam consumidos pelos participantes, doados a famílias em situação de vulnerabilidade ou comercializados em feiras locais. 
+Além disso, oferece capacitação técnica em agricultura urbana, fortalecendo a autonomia financeira e a sustentabilidade. O projeto também contribui para a revitalização de espaços urbanos ociosos, a redução da fome e o fortalecimento da economia solidária, impactando positivamente tanto a comunidade quanto o meio ambiente.
 
 <br>
 
@@ -68,12 +68,12 @@ O projeto fortalece a comunidade, proporciona autonomia, renda e contribui, prin
 
 ## 🌐 Acesso ao Projeto
 
-Acesse as telas diretamente pelos links abaixo:
+Acesse as telas desenvolvidas diretamente pelos links abaixo:
 
 | Tela        | Link                                       |
 |-------------|--------------------------------------------|
-| Principal   | [principal.html](./principal.html)         |
-| Cadastro    | [cadastro.html](./cadastro.html)           |
+| Principal   | [inicial.html](./inicial.html)         |
+| Cadastro    | [index.html](./index.html)           |
 | Login       | [login.html](./login.html)                 |
 
 <br>
