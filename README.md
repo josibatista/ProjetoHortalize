@@ -23,9 +23,11 @@
 
 ## 📖 Descrição do Projeto
 
-A ideia do Programa Hortalize é transformar terrenos baldios em hortas comunitárias, promovendo segurança alimentar, inclusão social e geração de renda. A iniciativa permite que os alimentos cultivados sejam consumidos pelos participantes, doados a famílias em situação de vulnerabilidade ou comercializados em feiras locais. 
-Além disso, oferece capacitação técnica em agricultura urbana, fortalecendo a autonomia financeira e a sustentabilidade. O projeto também contribui para a revitalização de espaços urbanos ociosos, a redução da fome e o fortalecimento da economia solidária, impactando positivamente tanto a comunidade quanto o meio ambiente.
-
+A ideia do Programa Hortalize é transformar terrenos baldios em hortas comunitárias, promovendo segurança alimentar, inclusão social e geração de renda. A iniciativa permite que:
+  - Os alimentos cultivados sejam consumidos pelos participantes, doados a famílias em situação de vulnerabilidade ou comercializados em feiras locais;
+  - Oferece capacitação técnica em agricultura urbana, fortalecendo a autonomia financeira e a sustentabilidade;
+  - Aconteça uma revitalização de espaços urbanos ociosos, redução da fome e fortalecimento da economia solidária.
+  
 <br>
 
 ## 🚧 Status do Projeto
@@ -33,7 +35,6 @@ Além disso, oferece capacitação técnica em agricultura urbana, fortalecendo 
 > **Em desenvolvimento**  
 Atualmente na fase de implementação de **HTML e CSS**, conforme exigência da disciplina de Front-End.  
 A próxima etapa será a aplicação de **JavaScript**.
-
 
 <br>
 
@@ -72,9 +73,29 @@ Acesse as telas desenvolvidas diretamente pelos links abaixo:
 
 | Tela        | Link                                       |
 |-------------|--------------------------------------------|
-| Principal   | [inicial.html](./inicial.html)         |
+| Principal   | [principal.html](./inicial.html)         |
 | Cadastro    | [index.html](./index.html)           |
 | Login       | [login.html](./login.html)                 |
+
+<br>
+
+### 🪜 Estrutura 
+
+`ProjetoHortalize/`  
+├── `index.html` → Formulário de criação de conta (nome, data de nascimento, telefone, tipo de contribuidor, e-mail e senha).  
+├── `login.html` → Página de login de usuários já cadastrados, com acesso à página principal.  
+├── `principal.html` → Página principal com informações do projeto, funcionamento, divisão, melhorias, impacto e ODS.  
+│  
+├── `css/`  
+│ └── `style.css` → Arquivo com as regras de estilo de todo o projeto.  
+│  
+├── `figs/` → Pasta contendo imagens do projeto:  
+│ ├── `programa_hortalize.png`  
+│ ├── `terreno.png`  
+│ ├── `capa.png`  
+│ └── `ODS.png`  
+│  
+└── `README.md` → Documentação do projeto.  
 
 <br>
 

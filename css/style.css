@@ -27,14 +27,6 @@ header h1 {
     align-items: center;
 }
 
-.principal{
-    display: flex;
-    color: white;
-    align-items: center;
-    text-decoration: none;
-    gap: 8px;
-}
-
 /*página principal*/
 .menu {
     color: white;
@@ -128,10 +120,10 @@ body {
 }
 
 /* Botão de envio */
-.forms button {
+.forms button{
     width: 100%;
     padding: 12px;
-    margin-top: 30px;
+    margin-top: 10px;
     background-color: #00AD0D;
     color: white;
     font-weight: bold;
@@ -142,8 +134,17 @@ body {
     transition: background-color 0.3s;
 }
 
+.forms button[type="submit"]{
+    margin-top: 30px;
+    background-color: #950009;
+}
+
 .forms button:hover {
     background-color: #1c4c25;
+}
+
+.forms button[type="submit"]:hover{
+    background-color: #5f0108;
 }
 
 /*página principal*/
