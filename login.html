@@ -30,15 +30,15 @@
 
         <h2 class="titulo-forms">Login de Usuário</h2>
 
-        <label for="email">E-mail de Login:</label>
+        <label id="email">E-mail de Login:</label>
         <input type="email" class="campo" name="email" placeholder="Informe seu e-mail" required>
 
-        <label for="senha">Senha:</label>
+        <label id="senha">Senha:</label>
         <input type="password" class="campo" name="senha" placeholder="Informe sua senha" required>
 
         <button type="submit">Entrar</button>
-        <a href="index.html"><button type="button">Criar conta</button></a>
-        
+        <button type="button" class="botao-secundario" onclick="location.href='index.html'">Criar conta</button>
+
         
     </form>
 
@@ -57,8 +57,7 @@
             </span>
         </div>
 
-        <div>
-            <div class="autoria-grid">
+        <div class="autoria-grid">
             <span class="titulo"> 2025 &copy; Programa Hortalize</span>
             <span class="divisor">|</span>
             <span class="cidade">Cornélio Procópio - PR</span>
