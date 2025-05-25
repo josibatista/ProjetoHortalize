@@ -73,7 +73,7 @@ Acesse as telas desenvolvidas diretamente pelos links abaixo:
 
 | Tela        | Link                                       |
 |-------------|--------------------------------------------|
-| Principal   | [inicial.html](./inicial.html)         |
+| Principal   | [principal.html](./inicial.html)         |
 | Cadastro    | [index.html](./index.html)           |
 | Login       | [login.html](./login.html)                 |
 
