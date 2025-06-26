@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Administrador</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Symbols+Outlined">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap">
+</head>
+<body>
+    <header>
+        <div class="programa">
+            <figure>
+                <img src="figs/programa_hortalize.png"
+                    alt="logotipo" height="60">
+            </figure>
+        </div>
+        <nav>
+            <a href="index.html" name="Cadastro" class="menu">
+                <span class="material-symbols-outlined">account_circle</span>
+            </a>
+            <a href="principal.html" name="Principal" class="menu"> 
+                <i class="material-icons-outlined">home</i>
+            </a>             
+            <a href="login.html" name="Login" class="menu">
+                <span class="material-symbols-outlined">logout</span>
+            </a>
+        </nav>
+        
+    </header>
+
+    <form class="forms" action="" method="get">
+
+        <h2 class="titulo-forms">Sistema Administrativo</h2>
+        <p class="subtitulo-forms">Cadastro de Usuário</p>
+
+        <label id="nome">Nome do Usuário:</label>
+        <input type="text" class="campo" name="nome" placeholder="Informe o nome do usuário" required>
+        
+        <label id="email">E-mail do Usuário:</label>
+        <input type="email" class="campo" name="email" placeholder="Informe o e-mail do usuário" required>
+
+
+        <button type="submit">Cadastrar</button>
+                
+    </form>
+
+    <footer class="rodape-admin">
+        <div class="nomes-grid">
+            <span class="nome-esquerda">
+                <a href="https://josibatista.github.io/web-front-end/" target="_blank">
+                    Josiane Mariane Batista
+                </a>
+            </span>
+            <span class="divisor">|</span>
+            <span class="nome-direita">
+                <a href="https://mariandj.github.io/Programa-o-Web-Front-End/" target="_blank">
+                    Maria Clara Nascimento
+                </a>
+            </span>
+        </div>
+
+        <div class="autoria-grid">
+            <span class="titulo"> 2025 &copy; Programa Hortalize</span>
+            <span class="divisor">|</span>
+            <span class="cidade">Cornélio Procópio - PR</span>
+        </div>
+    </footer>    
+</body>
+</html>
