@@ -151,6 +151,18 @@ body {
     background-color: #5f0108;
 }
 
+.container-botao {
+    text-align: right;
+}
+
+#botaoLimpar {
+    text-align: center;
+    background-color: #555;
+    width: 30%;
+    font-size: 14px;
+    padding: 8px;
+}
+
 /*página principal*/
 .titulo-h2 {
     color: #00AD0D;
