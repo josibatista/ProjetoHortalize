@@ -22,6 +22,10 @@ header h1 {
     margin: 0;
 }
 
+.subtitulo-forms{
+    text-align: center;
+}
+
 .programa{
     display: flex;
     align-items: center;
