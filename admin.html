@@ -28,26 +28,44 @@
                 <span class="material-symbols-outlined">logout</span>
             </a>
         </nav>
-        
     </header>
 
-    <form class="forms" action="" method="get">
+    <div id="mensagem-sucesso" class="mensagem-oculta">Usuário cadastrado com sucesso!</div>
 
+    <form class="forms" action="javascript:void(0)">
         <h2 class="titulo-forms">Sistema Administrativo</h2>
         <p class="subtitulo-forms">Cadastro de Usuário</p>
 
-        <label id="nome">Nome do Usuário:</label>
-        <input type="text" class="campo" name="nome" placeholder="Informe o nome do usuário" required>
-        
-        <label id="email">E-mail do Usuário:</label>
-        <input type="email" class="campo" name="email" placeholder="Informe o e-mail do usuário" required>
-        
+        <label for="nomeInput">Nome do Usuário:</label>
+        <input type="text" class="campo" id="nomeInput" placeholder="Informe o nome do usuário" required>
+
+        <label for="emailInput">E-mail do Usuário:</label>
+        <input type="email" class="campo" id="emailInput" placeholder="Informe o e-mail do usuário" required>
+
         <div class="container-botao">
-            <button type="button" id="botaoLimpar" class="botao">Limpar Campos</button>
+            <button type="button" id="botaoLimpar" class="botao" onclick="limparCampos()">Limpar Campos</button>
+            <button type="button" id="botaoAdmin" class="botao" onclick="cadastrarUsuario()">Cadastrar</button>
         </div>
-        <button type="submit">Cadastrar</button>
-              
     </form>
+
+    <section class="tabela-section">
+        <div class="pesquisa-container">
+            <input type="text" id="campo-pesquisa" placeholder="Pesquisar nome, e-mail ou data...">
+        </div>
+
+        <table id="tabela-usuarios">
+            <thead>
+                <tr>
+                    <th>Nome</th>
+                    <th>E-mail</th>
+                    <th>Data</th>
+                    <th>x</th> <!-- fazer um botão de excluir -->
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+    </section>
+    
 
     <footer class="rodape-admin">
         <div class="nomes-grid">
