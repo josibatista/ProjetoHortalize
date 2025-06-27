@@ -51,6 +51,7 @@
     <section class="tabela-section">
         <div class="pesquisa-container">
             <input type="text" id="campo-pesquisa" placeholder="Pesquisar nome, e-mail ou data...">
+            <button id="botaoExcluirTodos" onclick="excluirTodosUsuarios()">Excluir Todos</button>
         </div>
 
         <table id="tabela-usuarios">
@@ -59,7 +60,7 @@
                     <th>Nome</th>
                     <th>E-mail</th>
                     <th>Data</th>
-                    <th>x</th> <!-- fazer um botão de excluir -->
+                    <th>x</th>
                 </tr>
             </thead>
             <tbody></tbody>
@@ -88,7 +89,15 @@
             <span class="cidade">Cornélio Procópio - PR</span>
         </div>
     </footer>
-    
-    <script src="script.js"></script>
+
+    <div id="popup-confirmacao" class="popup-oculto">
+        <div class="popup-conteudo">
+            <p>Tem certeza que deseja excluir TODOS os usuários?</p>
+            <button onclick="confirmarExclusaoTodos()">Sim</button>
+            <button onclick="fecharPopup()">Cancelar</button>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
 </body>
 </html>
