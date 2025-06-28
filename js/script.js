@@ -1,9 +1,9 @@
-const nomeInput = document.getElementById('nomeInput');
-const emailInput = document.getElementById('emailInput');
-
 window.onload = function(){
     carregarUsuarios();
 }
+
+const nomeInput = document.getElementById('nomeInput');
+const emailInput = document.getElementById('emailInput');
 
 function cadastrarUsuario(){
     const nome = nomeInput.value.trim();
