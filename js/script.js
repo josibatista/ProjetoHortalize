@@ -1,6 +1,5 @@
 const nomeInput = document.getElementById('nomeInput');
 const emailInput = document.getElementById('emailInput');
-const listaUsuarios = document.getElementById('lista-usuarios');
 
 function cadastrarUsuario(){
     const nome = nomeInput.value.trim();
