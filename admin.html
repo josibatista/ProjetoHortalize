@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Administrador</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Symbols+Outlined">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="programa">
+            <figure>
+                <img src="figs/programa_hortalize.png"
+                    alt="logotipo" height="60">
+            </figure>
+        </div>
+        <nav>
+            <a href="index.html" name="Cadastro" class="menu">
+                <span class="material-symbols-outlined">account_circle</span>
+            </a>
+            <a href="principal.html" name="Principal" class="menu"> 
+                <i class="material-icons-outlined">home</i>
+            </a>             
+            <a href="login.html" name="Login" class="menu">
+                <span class="material-symbols-outlined">logout</span>
+            </a>
+        </nav>
+    </header>
+
+    <div id="mensagem-sucesso" class="mensagem-oculta">Usuário cadastrado com sucesso!</div>
+
+    <form class="forms" action="javascript:void(0)">
+        <h2 class="titulo-forms">Sistema Administrativo</h2>
+        <p class="subtitulo-forms">Cadastro de Usuário</p>
+
+        <label for="nomeInput">Nome do Usuário:</label>
+        <input type="text" class="campo" id="nomeInput" placeholder="Informe o nome do usuário" required>
+
+        <label for="emailInput">E-mail do Usuário:</label>
+        <input type="email" class="campo" id="emailInput" placeholder="Informe o e-mail do usuário" required>
+
+        <div class="container-botao">
+            <button type="button" id="botaoLimpar" class="botao" onclick="limparCampos()">Limpar Campos</button>
+            <button type="button" id="botaoAdmin" class="botao" onclick="cadastrarUsuario()">Cadastrar</button>
+        </div>
+    </form>
+
+    <section class="tabela-section">
+        <div class="pesquisa-container">
+            <div class="campo-pesquisa-wrapper">
+                <input type="text" id="campo-pesquisa" placeholder="Pesquisar nome, e-mail ou data...">
+                <span class="material-icons search-icon">search</span>
+            </div>
+            <button id="botaoExcluirTodos" onclick="excluirTodosUsuarios()">Excluir Todos</button>
+        </div>
+
+
+        <table id="tabela-usuarios">
+            <thead>
+                <tr>
+                    <th>Nome</th>
+                    <th>E-mail</th>
+                    <th>Data</th>
+                    <th>x</th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+    </section>
+    
+
+    <footer class="rodape-admin">
+        <div class="nomes-grid">
+            <span class="nome-esquerda">
+                <a href="https://josibatista.github.io/web-front-end/" target="_blank">
+                    Josiane Mariane Batista
+                </a>
+            </span>
+            <span class="divisor">|</span>
+            <span class="nome-direita">
+                <a href="https://mariandj.github.io/Programa-o-Web-Front-End/" target="_blank">
+                    Maria Clara Nascimento
+                </a>
+            </span>
+        </div>
+
+        <div class="autoria-grid">
+            <span class="titulo"> 2025 &copy; Programa Hortalize</span>
+            <span class="divisor">|</span>
+            <span class="cidade">Cornélio Procópio - PR</span>
+        </div>
+    </footer>
+
+    <div id="popup-confirmacao" class="popup-oculto">
+        <div class="popup-conteudo">
+            <p>Tem certeza que deseja excluir TODOS os usuários?</p>
+            <button onclick="confirmarExclusaoTodos()">Sim</button>
+            <button onclick="fecharPopup()">Cancelar</button>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
