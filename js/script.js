@@ -1,6 +1,10 @@
 const nomeInput = document.getElementById('nomeInput');
 const emailInput = document.getElementById('emailInput');
 
+window.onload = function(){
+    carregarUsuarios();
+}
+
 function cadastrarUsuario(){
     const nome = nomeInput.value.trim();
     const email = emailInput.value.trim();
@@ -58,8 +62,6 @@ function carregarUsuarios(filtro = '') {
         }
     });
 }
-
-window.onload = carregarUsuarios;
 
 function exibirMensagem(texto, corFundo = '#d4edda', corTexto = '#155724') {
     const msg = document.getElementById('mensagem-sucesso');
