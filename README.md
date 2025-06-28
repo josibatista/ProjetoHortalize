@@ -7,6 +7,7 @@
 ![Status](https://img.shields.io/badge/status-em%20desenvolvimento-yellow)
 ![HTML](https://img.shields.io/badge/HTML-5-orange)
 ![CSS](https://img.shields.io/badge/CSS-3-blue)
+![JavaScript](https://img.shields.io/badge/JavaScript-ES6-yellow)
 
 <br>
 
@@ -32,9 +33,9 @@ A ideia do Programa Hortalize é transformar terrenos baldios em hortas comunit�
 
 ## 🚧 Status do Projeto
 
-> **Em desenvolvimento**  
-Atualmente na fase de implementação de **HTML e CSS**, conforme exigência da disciplina de Front-End.  
-A próxima etapa será a aplicação de **JavaScript**.
+> **🚧 Em desenvolvimento**
+O projeto já conta com a implementação de **HTML** e **CSS** em quatro páginas, sendo que uma delas já possui **JavaScript** aplicado.
+Os próximos passos envolvem estender o uso de **JavaScript** a todas as páginas e tornar o sistema plenamente funcional.
 
 <br>
 
@@ -71,11 +72,13 @@ O projeto fortalece a comunidade, proporciona autonomia, renda e contribui, prin
 
 Acesse as telas desenvolvidas diretamente pelos links abaixo:
 
-| Tela        | Link                                       |
-|-------------|--------------------------------------------|
-| Principal   | [principal.html](./inicial.html)         |
+| Tela        | Link                                 |
+|-------------|--------------------------------------|
+| Principal   | [principal.html](./inicial.html)     |
 | Cadastro    | [index.html](./index.html)           |
-| Login       | [login.html](./login.html)                 |
+| Login       | [login.html](./login.html)           |
+| Admin       | [admin.html](./admin.html)           |
+
 
 <br>
 
@@ -85,6 +88,7 @@ Acesse as telas desenvolvidas diretamente pelos links abaixo:
 ├── `index.html` → Formulário de criação de conta (nome, data de nascimento, telefone, tipo de contribuidor, e-mail e senha).  
 ├── `login.html` → Página de login de usuários já cadastrados, com acesso à página principal.  
 ├── `principal.html` → Página principal com informações do projeto, funcionamento, divisão, melhorias, impacto e ODS.  
+├── `admin.html` → Tela administrativa para cadastro de usuários e gerenciamento local com HTML, CSS e JavaScript.
 │  
 ├── `css/`  
 │ └── `style.css` → Arquivo com as regras de estilo de todo o projeto.  
@@ -103,6 +107,7 @@ Acesse as telas desenvolvidas diretamente pelos links abaixo:
 
 - HTML5
 - CSS3
+- JavaScript
 
 <br>
 
