@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Symbols+Outlined">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 <body>
     <header>
@@ -50,9 +51,13 @@
 
     <section class="tabela-section">
         <div class="pesquisa-container">
-            <input type="text" id="campo-pesquisa" placeholder="Pesquisar nome, e-mail ou data...">
+            <div class="campo-pesquisa-wrapper">
+                <input type="text" id="campo-pesquisa" placeholder="Pesquisar nome, e-mail ou data...">
+                <span class="material-icons search-icon">search</span>
+            </div>
             <button id="botaoExcluirTodos" onclick="excluirTodosUsuarios()">Excluir Todos</button>
         </div>
+
 
         <table id="tabela-usuarios">
             <thead>

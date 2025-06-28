@@ -62,17 +62,6 @@ function carregarUsuarios(filtro = '') {
 
 window.onload = carregarUsuarios;
 
-/*function exibirMensagemSucesso() {
-    const msg = document.getElementById('mensagem-sucesso');
-    msg.style.display = 'block';
-    msg.style.opacity = '1';
-
-    setTimeout(() => {
-        msg.style.display = 'none';
-        msg.style.opacity = '0';
-    }, 4000); // 4 segundos no total
-}*/
-
 function exibirMensagem(texto, corFundo = '#d4edda', corTexto = '#155724') {
     const msg = document.getElementById('mensagem-sucesso');
     msg.textContent = texto;
