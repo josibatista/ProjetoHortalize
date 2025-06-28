@@ -63,20 +63,6 @@ function carregarUsuarios(filtro = '') {
     });
 }
 
-function exibirMensagem(texto, corFundo = '#d4edda', corTexto = '#155724') {
-    const msg = document.getElementById('mensagem-sucesso');
-    msg.textContent = texto;
-    msg.style.display = 'block';
-    msg.style.backgroundColor = corFundo;
-    msg.style.color = corTexto;
-    msg.style.opacity = '1';
-
-    setTimeout(() => {
-        msg.style.display = 'none';
-        msg.style.opacity = '0';
-    }, 3000);
-}
-
 document.getElementById('campo-pesquisa').addEventListener('input', (e) => {
     const termo = e.target.value;
     carregarUsuarios(termo);
@@ -97,11 +83,24 @@ function confirmarExclusaoTodos() {
     exibirMensagem("Todos os usuários foram excluídos!", "#f8d7da", "#721c24");
 }
 
-
 function excluirUsuario(index) {
     let usuarios = JSON.parse(localStorage.getItem('usuarios')) || [];
     usuarios.splice(index, 1);
     localStorage.setItem('usuarios', JSON.stringify(usuarios));
     carregarUsuarios();
     exibirMensagem("Usuário excluído com sucesso!", "#f8d7da", "#721c24"); 
+}
+
+function exibirMensagem(texto, corFundo = '#d4edda', corTexto = '#155724') {
+    const msg = document.getElementById('mensagem-sucesso');
+    msg.textContent = texto;
+    msg.style.display = 'block';
+    msg.style.backgroundColor = corFundo;
+    msg.style.color = corTexto;
+    msg.style.opacity = '1';
+
+    setTimeout(() => {
+        msg.style.display = 'none';
+        msg.style.opacity = '0';
+    }, 3000);
 }
