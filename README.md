@@ -33,9 +33,11 @@ A ideia do Programa Hortalize é transformar terrenos baldios em hortas comunit�
 
 ## 🚧 Status do Projeto
 
-> **🚧 Em desenvolvimento**
-O projeto já conta com a implementação de **HTML** e **CSS** em quatro páginas, sendo que uma delas já possui **JavaScript** aplicado.
-Os próximos passos envolvem estender o uso de **JavaScript** a todas as páginas e tornar o sistema plenamente funcional.
+> **Em desenvolvimento:** 
+O projeto já conta com a implementação de HTML e CSS em quatro páginas, sendo que uma delas já possui JavaScript aplicado.
+Os próximos passos envolvem estender o uso de JavaScript a todas as páginas e tornar o sistema plenamente funcional.
+
+> **Finalizado** para disciplina de Programação Web Front-End.
 
 <br>
 
